@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ol,ul,li {
+	list-style: none;
+}	
+a {
+	text-decoration: none;
+}
+body {
+	font-size: 12px;
+	background: #F6F6F6;
+}
+.header {
+	width: 6.4rem;
+	height: 2.17rem;
+	background: #FF5344;
+}
+.header0 {
+	width: 6.4rem;
+	height: 0.3rem;
+	background: #FF5344;
+}
+.header1 {
+	width: 6.4rem;
+	height: 0.33rem;
+	color: white;
+	display: flex;
+}
+.header1-1 {
+	width: 0.6rem;
+	height: 0.33rem;
+	text-align: center;
+}
+.header1-1 a {
+	color: white;
+}
+.header1-2 {
+	width: 5.8rem;
+	height: 0.33rem;
+	padding-right: 0.6rem;
+	text-align: center;
+	line-height: 0.33rem;
+	font-size: 0.3rem;
+	color: white;
+}
+.header2 {
+	width: 6.4rem;
+	height: 0.64rem;
+	margin-top: 0.5rem;
+}
+.header2-in {
+	width: 2.51rem;
+	height: 0.64rem;
+	margin: 0 auto;
+	border-radius: 0.3rem;
+	font-size: 0.4rem;
+	color: white;
+	border: 1px solid white;
+	text-align:center ;
+	line-height: 0.64rem;
+}
+.one {
+	width: 640px;
+	height: 0.78rem;
+	padding-left: 27px;
+	padding-right: 0.3rem;
+	display: flex;
+	background: white;
+}
+.one1 {
+	width: 4.26rem;
+	height: 0.78rem;
+	line-height: 0.78rem;
+}
+.one2 {
+	width: 1.09rem;
+	height: 0.78rem;
+	line-height: 0.78rem;
+}
+.one3 {
+	width: 0.48rem;
+	height: 0.78rem;
+	line-height: 0.78rem;
+}
+.two {
+	width: 6.4rem;
+	height: 1.1rem;
+	display: flex;
+	background: white;
+}
+.two1 {
+	width: 1.28rem;
+	height: 1.1rem;
+	display: flex;
+	flex-direction: column;
+}
+.two1-1 {
+	width: 1.28rem;
+	height: 0.8rem;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.two-2 {
+	width: 1.28rem;
+	height: 0.3rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.three {
+	width: 6.4rem;
+	height: 1.54rem;
+	background: white;
+	margin-top: 0.15rem;
+	padding-left: 0.27rem;
+	display: flex;
+	flex-direction: column;
+}
+.three1 {
+	width: 6.13rem;
+	height: 0.77rem;
+	display: flex;
+}
+.three1-1 {
+	width: 5.7rem;
+	height: 0.77rem;
+	line-height: 0.77rem;
+}
+.three1-2 {
+	width: 0.43rem;
+	height: 0.77rem;
+	line-height: 0.77rem;
+}
+.footer {
+	width: 6.4rem;
+	position: fixed;
+	height: 0.76rem;
+	bottom: 0rem;
+	background: #FFFFFF;
+	display: flex;
+}
+.footer-in {
+	width: 1.28rem;
+	height: 0.76rem;
+	display: flex;
+	flex-direction: column;
+}
+.footer-in-1 {
+	width: 1.28rem;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	text-align: center;
+}
+.footer-in-2 {
+	width: 1.28rem;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	font-size: 0.15rem;
+	text-align: center;
+}

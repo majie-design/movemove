@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ol,ul,li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-size: 12px;
+}
+.footer {
+	width: 6.4rem;
+	position: fixed;
+	height: 0.76rem;
+	bottom: 0rem;
+	background: #FFFFFF;
+	display: flex;
+}
+.footer-in {
+	width: 1.28rem;
+	height: 0.76rem;
+	display: flex;
+	flex-direction: column;
+}
+.footer-in-1 {
+	width: 1.28rem;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	text-align: center;
+}
+.footer-in-2 {
+	width: 1.28rem;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	font-size: 0.15rem;
+	text-align: center;
+}
+.footer ul>li {
+	width: 20%;
+	height: 100%;
+	text-align: center;	
+}
+.head {
+	width: 6.4rem;
+	height: 0.76rem;
+	/* background: yellow; */
+	text-align: center;
+	line-height: 0.76rem;
+	font-size: 0.384rem;
+	border-bottom: 1px solid #aaa
+}
+.nav {
+	width: 100%;
+	height: 0.6rem;
+	/* overflow: hidden; */
+	display: flex;
+}
+.nav1 {
+	width: 90%;
+	height: 0.6rem;
+	overflow: hidden;
+	display: flex;
+}
+.nav1 ul{
+	width: 13.44rem;
+	height: 1rem;
+	display: flex;
+	overflow: auto;
+}
+.nav ul>li {
+	width: 0.96rem;
+	height: 0.58rem;
+	flex-shrink: 0;
+	/* color: #EFEDED; */
+	text-align: center;
+	line-height: 0.58rem;
+}
+#sp {
+	border-bottom: 2px solid #ED5B00;
+    color: #ED5B00;
+}
+.nav2 {
+	width: 10%;
+	height: 0.6rem;
+	text-align: center;
+	line-height:0.6rem ;
+}
+.banner {
+	width: 6.4rem;
+	height: 2.44rem;
+	overflow: hidden;
+}
+@keyframes poter{
+	0%,18% {
+		margin-left: 0px;
+	}
+	35%,53% {
+		margin-left: -6.4rem;
+	}
+	70%,88% {
+		margin-left: -12.8rem;
+	}
+	100% {
+		margin-left: -19.2rem;
+	}
+	
+}
+.banner ul {
+	width: 25.6rem;
+	height: 2.44rem;
+	animation: poter 10s linear infinite;
+}
+.banner li {
+	float: left;
+}
+.banner>ul>li,.banner>ul>li>img {
+	width: 6.4rem;
+	height: 2.44rem;
+}
+.two {
+	width: 6.4rem;
+	height: 1.8rem;
+	display: flex;
+}
+.two div {
+	width: 1.28rem;
+	height: 1.33rem;
+	/* display: flex; */
+}
+.two1-1 {
+	width: 1.28rem;
+	height: 1.16rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.two1-1 img {
+	width: 0.9386rem;
+	height: 0.9386rem;
+}
+.two1-2 {
+	width: 1.28rem;
+	height: 0.17rem;
+	text-align: center;
+	font-size: 0.2rem;
+}
+.three {
+	width: 6.4rem;
+	height: 2.22rem;
+	display: flex;
+}
+.three-in {
+	width: 3.2rem;
+	height: 2.22rem;
+}
+.three-in img {
+	width: 100%;
+	height: 100%;
+}
+.four {
+	width: 6.4rem;
+	height: 1.85rem;
+}
+.four img {
+	width: 100%;
+	height: 100%;
+}
+.five {
+	width: 6.4rem;
+	height: 0.68rem;
+	line-height: 0.68rem;
+	padding-left: 0.2rem;
+	font-size: 0.27rem;
+}
+.six {
+	width: 6.4rem;
+	height: 3rem;
+	padding-left: 0.2rem;
+	display: flex;
+	overflow: hidden;
+}
+.six ul {
+	width: 65rem;
+	height: 100%;
+	display: flex;
+	overflow: auto;
+	
+	justify-content:space-between ;
+}
+.six>ul>li {
+	width:1.7rem ;
+	height: 100%;
+	margin-left: 0.1rem;
+}
+.sixin-1 {
+	width: 100%;
+	width: 1.7rem;
+}
+.sixin-1 img {
+	width: 100%;
+	width: 100%;
+}
+.sixin-2 {
+	width: 100%;
+	height: 0.55rem;
+	font-size: 0.2rem;
+	overflow: hidden;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.sixin-3 {
+	width: 100%;
+	height: 0.55rem;
+	font-size: 0.2rem;
+	color: #E60044;
+}
+.seven {
+	width: 6.4rem;
+	height: 8.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.seven-in {
+	width: 2.9rem;
+	height: 4.26rem;
+}
+.seven-in-1 {
+	width: 2.9rem;
+	height: 3.16rem;
+}
+.seven-in-1 img{
+	width: 100%;
+	height: 100%;
+}
+.seven-in-2 {
+	width: 2.9rem;
+	height: 1.1rem;
+}
+.seven-in-2-1 {
+	width: 2.9rem;
+	height: 0.34rem;
+	overflow: hidden;
+}
+.seven-in-2-2 {
+	width: 2.9rem;
+	height: 0.76rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.seven-in-2-2-1 {
+	width: 1.02rem;
+	height: 0.35rem;
+}
+#seven-in-2-1{
+	font-size: 0.1rem;
+	color: #EB376C;
+	/* line-height: 0.35rem; */
+	overflow: hidden;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.seven-in-2-2:nth-child(n+2) {
+	font-size: 0.1rem;
+	color: #9b9b9b;
+	/* line-height: 0.35rem; */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

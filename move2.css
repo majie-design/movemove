@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ol,ul,li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-size: 12px;
+}
+.return {
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 0.3rem;
+	background: gray;
+	position: fixed;
+	top: 0.3rem;
+	left: 0.3rem;
+}
+.head {
+	width: 6.4rem;
+	height: 0.76rem;
+	background-color: #F8F8F8;
+	text-align: center;
+	line-height: 0.76rem;
+	font-size: 0.384rem;
+	border-bottom: 1px solid #aaa
+}
+.nav {
+	width: 100%;
+	height: 0.6rem;
+	/* overflow: hidden; */
+	display: flex;
+}
+.nav1 {
+	width: 90%;
+	height: 0.6rem;
+	overflow: hidden;
+	display: flex;
+}
+.nav1 ul{
+	width: 13.44rem;
+	height: 1rem;
+	display: flex;
+	overflow: auto;
+}
+.nav ul>li {
+	width: 0.96rem;
+	height: 0.58rem;
+	flex-shrink: 0;
+	/* color: #EFEDED; */
+	text-align: center;
+	line-height: 0.58rem;
+}
+#sp {
+	border-bottom: 2px solid #ED5B00;
+    color: #ED5B00;
+}
+.nav2 {
+	width: 10%;
+	height: 0.6rem;
+	text-align: center;
+	line-height:0.6rem ;
+}
+.one {
+	width: 6.4rem;
+	height: 0.86rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.one-in {
+	width: 4.6rem;
+	height: 0.43rem;
+	display: flex;
+}
+.one-in-1 {
+	width: 2.3rem;
+	height: 0.43rem;
+	color: white;
+	text-align: center;
+	line-height: 0.43rem;
+	background: #E60044;
+}
+.one-in-2 {
+	width: 2.3rem;
+	height: 0.43rem;
+	text-align: center;
+	line-height: 0.43rem;
+	border: 0.01rem solid #E60044;
+}
+.two {
+	width: 6.4rem;
+	height: 0.88rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.two-in {
+	width: 6.06rem;
+	height: 0.88rem;
+	display: flex;
+	justify-content: space-between;
+}
+.two-in-1 {
+	width: 0.88rem;
+	height: 0.88rem;
+	display: flex;
+	margin-left: 0.2rem;
+	justify-content: center;
+	align-items: center;
+}
+.two-in-1 img {
+	width: 0.88rem;
+	height: 0.88rem;
+}
+.two-in-2 {
+	width: 4.78rem;
+	height: 0.88rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.two-in-2-1 {
+	widows: 4.78rem;
+	height: 0.36rem;
+	line-height: 0.36rem;
+}
+#two-in-2-2 {
+	width: 4.78rem;
+	height: 0.32rem;
+	line-height: 0.36rem;
+	font-size: 0.1rem;
+	color: #999999;
+}
+.three {
+	width: 6.4rem;
+	height: 2.56rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.three-in {
+	width: 6.14rem;
+	height: 2.56rem;
+	display: flex;
+	justify-content: space-between;
+}
+.three-in-in-1 {
+	width: 1.9rem;
+	height: 1.9rem;
+}
+.three-in-in-1 img {
+	width: 100%;
+	height: 100%;
+}
+.three-in-in-2 {
+	width: 1.9rem;
+	height: 0.33rem;
+	line-height: 0.33rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#three-in-in-3 {
+	width: 1.9rem;
+	height: 0.32rem;
+	color: #E60044;
+	font-size: 0.23rem;
+	line-height: 0.32rem;
+	
+}
+#three-in-in-3 span {
+	font-size: 0.05rem;
+	color: #ACACAC;
+	text-decoration: line-through;
+}
